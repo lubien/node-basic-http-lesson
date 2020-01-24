@@ -1,0 +1,11 @@
+<% include('./layouts/header.ejs') %> 
+
+<h1>Fala gurizada</h1>
+
+<% if (word) { %>
+    <p>A palavra de hoje é: <%= word %> </p>
+<% } else { %>
+    <p>Nao temos palavra hoje</p>
+<% } %>
+
+<% include('./layouts/footer.ejs') %> 
